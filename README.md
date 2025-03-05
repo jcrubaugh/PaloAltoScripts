@@ -4,8 +4,14 @@ Scripts I use to automate migration of data between different palo alto clusters
 If your going to be using this repo, you will want to ensure that you have the following variables set in your windows environment
 
 Set-EnvironmentVariable -Name panoramapikey -Value 'yourapikey' -StoreName User
+
+
 Set-EnvironmentVariable -Name panoramanpapikey -Value 'yourapikey' -StoreName User
+
+
 Set-EnvironmentVariable -Name panoramaprodapikey -Value 'yourapikey' -StoreName User
+
+
 ** Note the name above here are my names of the key files where i host the variables  your names can be different, just remember whatever name you use matches the key file name.
 
 
